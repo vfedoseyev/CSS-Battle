@@ -1,0 +1,46 @@
+body {
+    width: 200px;
+    height: 200px;
+    background: #000;
+    border: 1px solid #fff;
+}
+
+.bg {
+    width: 150px;
+    height: 200px;
+    background: #F2AD43;
+    border-radius: 80px 80px 20px 20px;
+    position: absolute;
+    left: 35px;
+    overflow: hidden;
+}
+
+.sun {
+    background: #FFF58F;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    position: relative;
+    left: 48px;
+    top: 85px;
+}
+
+.left {
+    background: #E08027;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    right: 75px;
+    top: 55px;
+}
+
+.right {
+    background: #824B20;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -145px;
+    left: 25px;
+}

@@ -1,0 +1,46 @@
+        body {
+            width: 200px;
+            height: 200px;
+            background: #6592CF;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .class1 {
+            width: 150px;
+            height: 100px;
+            background: #243D83;
+            position: relative;
+            border-radius: 0 0 10px 10px;
+            left: 25px;
+            top: 100px;
+        }
+
+        .class2 {
+            width: 100px;
+            height: 10px;
+            background: #EEB850;
+            border-radius: 10px;
+            position: relative;
+            left: 50px;
+            bottom: 5px;
+            z-index: 1;
+        }
+
+        .class3 {
+            width: 50px;
+            height: 50px;
+            background: #EEB850;
+            border-radius: 10px 10px 0 0;
+            position: relative;
+            left: 75px;
+            bottom: -40px;
+        }
+
+        .class4 {
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 100px solid #243D83;
+            position: relative;
+            bottom: 160px;
+        }
